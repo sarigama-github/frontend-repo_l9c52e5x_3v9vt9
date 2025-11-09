@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-black via-zinc-950 to-zinc-900 text-amber-50">
-      <div className="fixed inset-0 -z-0 pointer-events-none">
+      <div className="fixed inset-0 z-0 pointer-events-none">
         <div className="absolute -top-24 -left-24 h-80 w-80 rounded-full bg-amber-500/10 blur-3xl" />
         <div className="absolute -bottom-24 -right-24 h-80 w-80 rounded-full bg-orange-600/10 blur-3xl" />
       </div>
